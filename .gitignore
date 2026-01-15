@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Ambientes
+.venv/
+venv/
+env/
+
+# Dados (evitar subir dados por acidente)
+data/raw/
+data/processed/
+
+# Modelos e outputs grandes
+*.joblib
+*.pkl
+
+# Sistema
+.DS_Store
+Thumbs.db
